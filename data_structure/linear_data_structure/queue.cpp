@@ -6,7 +6,7 @@ using namespace std;
 
 class Queue {
     private:
-        int arr[MAX]
+        int arr[MAX];
         int front, rear; 
     
     public: 
@@ -40,7 +40,7 @@ class Queue {
                     front = 0;
                 }
                 rear++;
-                arr[rear] = element;
+                arr[rear] = number;
                 cout << "Inserted: " << number << endl;
             }
         }
